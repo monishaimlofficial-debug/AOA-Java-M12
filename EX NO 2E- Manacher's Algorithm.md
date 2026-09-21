@@ -22,6 +22,10 @@ using **Manacher's Algorithm**.
 5. Convert the transformed indices back to the original string and return the longest palindromic substring.
 
 ## Program:
+           
+```java
+        for (char c : s.toCharArray()) {
+            t.append('#');
             t.append(c);
         }
         t.append("#$");
@@ -68,6 +72,7 @@ using **Manacher's Algorithm**.
     }
 }
 ```
+
 
 ## Output:
 
